@@ -57,7 +57,7 @@ const CustomNavbar = () => {
 
                         <NavItem>
                             <NavLink tag={ReactLink} to="/" >
-                                New Feed
+                                Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -66,9 +66,9 @@ const CustomNavbar = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={ReactLink} to="/services" >
+                            {/* <NavLink tag={ReactLink} to="/services" >
                                 Services
-                            </NavLink>
+                            </NavLink> */}
                         </NavItem>
 
 
@@ -128,7 +128,7 @@ const CustomNavbar = () => {
                                     </NavItem>
 
                                     <NavItem>
-                                        <NavLink onClick={logout} >
+                                        <NavLink onClick={logout} style={{ cursor: 'pointer' }}>
                                             Logout
                                         </NavLink>
                                     </NavItem>

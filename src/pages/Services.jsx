@@ -8,10 +8,8 @@ const Services = () => {
                 (object) => (
 
                     <Base>
-                        <h1>
-                            This is services page
-                        </h1>
                         <h1>Welcome {object.user.login && object.user.data.name}</h1>
+                        <p>This page under developing....</p>
                     </Base>
                 )
             }

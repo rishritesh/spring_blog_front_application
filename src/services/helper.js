@@ -1,6 +1,7 @@
 import axios from "axios";
 import { getToken } from "../auth";
 
+// export const BASE_URL = "http://54.89.129.57:9292/api/v1";
 export const BASE_URL = "http://localhost:9292/api/v1";
 // export const BASE_URL = "https://apis.lcwdblogs.online/api/v1";
 

@@ -92,7 +92,7 @@ function NewFeed() {
                     }
                 }>
 
-                    <h1>Blogs Count  ( {postContent?.totalElements} )</h1>
+                    {/* <h1>Blogs Count  ( {postContent?.totalElements} )</h1> */}
                     <InfiniteScroll
                         dataLength={postContent.content.length}
                         next={changePageInfinite}

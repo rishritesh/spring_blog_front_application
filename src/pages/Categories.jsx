@@ -53,7 +53,7 @@ function Categories() {
                     </Col>
                     <Col md={10}>
 
-                        <h1>Blogs Count ( {posts.length} )</h1>
+                        
 
                         {
                             posts && posts.map((post, index) => {
@@ -63,7 +63,7 @@ function Categories() {
                             })
                         }
 
-                        {posts.length <= 0 ? <h1>No post in this category</h1> : ''}
+                        {posts.length <= 0 ? <p>No post in this category</p> : ''}
                     </Col>
                 </Row>
             </Container>
